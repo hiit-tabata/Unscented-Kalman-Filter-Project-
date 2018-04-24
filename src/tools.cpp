@@ -5,29 +5,10 @@ using Eigen::VectorXd;
 using Eigen::MatrixXd;
 using std::vector;
 
-Tools::Tools() : mse(4), 
-    lastmse(4),
-    rmse(4)
-{
-  resetRMSE();
-}
+Tools::Tools() {}
 
 Tools::~Tools() {}
 
-/**
- * Calculate the RMSE
- * 
- * Logic:
- * 1. check input
- *    - check the size of the estimations and the ground truth,
- *      make sure they are the same. 
- * 2. cal the sum of all previous terms 
- * 3. cal the incremental term 
- * 4. add the incremental term to sum 
- * 5. cal the new rmse
- * 6. warn when the rmse larger than the limit
- * 
- **/
 VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
                               const vector<VectorXd> &ground_truth) 
 {

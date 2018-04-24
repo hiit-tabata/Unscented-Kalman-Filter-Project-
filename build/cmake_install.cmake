@@ -1,4 +1,4 @@
-# Install script for directory: /home/holman/Documents/self_driving/CarND-Unscented-Kalman-Filter-Project
+# Install script for directory: /home/holman/Documents/self_driving/Unscented-Kalman-Filter-Project-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/holman/Documents/self_driving/CarND-Unscented-Kalman-Filter-Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/holman/Documents/self_driving/Unscented-Kalman-Filter-Project-/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

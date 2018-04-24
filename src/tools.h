@@ -16,8 +16,6 @@ class Tools
   VectorXd lastmse;
   VectorXd rmse;
 
-  // Reset running root mean standard error calculation to zero
-  void resetRMSE();
 
 public:
   /**
