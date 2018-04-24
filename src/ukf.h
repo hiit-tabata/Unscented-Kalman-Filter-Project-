@@ -137,12 +137,6 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
-  // The project description mentioned that the following variables 
-  // should appear in the header.
-  double NIS_radar_; 
-  double NIS_laser_;
-
-
   /**
    * Constructor
    */
